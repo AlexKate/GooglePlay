@@ -30,6 +30,7 @@ public class DuckActivityLifeCallback implements Application.ActivityLifecycleCa
 	@Override
 	public void onActivityPaused(Activity activity) {
 
+
 	}
 
 	@Override
