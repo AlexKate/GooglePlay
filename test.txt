@@ -1,0 +1,15 @@
+:app:generateDebugBuildConfig	9ms
+:app:prepareLintJar	5ms
+:app:mainApkListPersistenceDebug	8ms
+:app:generateDebugResValues	2ms
+:app:generateDebugResources	1ms
+:app:mergeDebugResources	807ms
+:app:createDebugCompatibleScreenManifests	5ms
+:app:processDebugManifest	441ms
+:app:splitsDiscoveryTaskDebug	5ms
+:app:processDebugResources	29s 269ms
+Resolve files of :app:debugRuntimeClasspath	361ms
+Resolve files of :app:debugCompileClasspath	1ms
+Execute taskAction	28s 781ms
+Resolve files of :app:debugCompileClasspath	1ms
+Resolve files of :app:debugRuntimeClasspath	27ms
