@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">谷歌市场</string>
+    <string name="download">下载</string>
+    <string name="manyStr">测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本测试文本</string>
     <string-array name="tab_names">
         <item>首页</item>
         <item>应用</item>

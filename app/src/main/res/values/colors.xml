@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="black">#000000</color>
 
 
     <color name="bg_window">#ffe5e5e5</color>
@@ -25,6 +26,7 @@
     <color name="progress">#0294f0</color>
     <color name="menu_bg_normal">#f0f1f3</color>
     <color name="menu_bg_press">#cecece</color>
+    <color name="card">#66A9A9A9</color>
 
 
 </resources>

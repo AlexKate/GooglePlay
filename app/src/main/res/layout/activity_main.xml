@@ -3,6 +3,11 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent">
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/bt"
+        android:layout_height="wrap_content" />-->
+
    <com.hualing.googleplay.view.PagerTab
        android:layout_width="match_parent"
        android:id="@+id/pager_tab"

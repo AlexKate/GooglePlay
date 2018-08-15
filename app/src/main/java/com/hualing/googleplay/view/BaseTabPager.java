@@ -5,6 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.hualing.googleplay.R;
@@ -68,6 +69,11 @@ public abstract class BaseTabPager extends FrameLayout {
 
 			mErrorView = UIUtils.inflate(R.layout.page_error);
 			addView(mErrorView);
+			//重新加载
+			mErrorView.setOnClickListener((View v)->{
+				loadData();
+
+			});
 		}
 		if (mEmptyView == null) {
 			mEmptyView = UIUtils.inflate(R.layout.page_empty);
@@ -106,16 +112,14 @@ public abstract class BaseTabPager extends FrameLayout {
 		if (mCurrentState != STATE_LOADING) {
 			mCurrentState=STATE_LOADING;
 			//加载
-			 onLoad(new onPageCallback() {
-				@Override
-				public void onCall(ResultState state) {
+			 onLoad(state -> {
 
-					//回调，加载数据完成，更改布局
-					mCurrentState=state.getState();
-					showRightView();
+				 //回调，加载数据完成，更改布局
+				 mCurrentState=state.getState();
+				 showRightView();
 
-				}
-			});
+
+			 });
 		}
 	}
 
