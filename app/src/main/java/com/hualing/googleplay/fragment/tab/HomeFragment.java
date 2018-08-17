@@ -1,7 +1,9 @@
 package com.hualing.googleplay.fragment.tab;
 
 import android.graphics.Color;
+import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 
@@ -14,6 +16,7 @@ import com.hualing.googleplay.json.HomeJson;
 import com.hualing.googleplay.other.ConstantValue;
 import com.hualing.googleplay.util.CacheUtil;
 import com.hualing.googleplay.util.JingUtil;
+import com.hualing.googleplay.util.ToastUtil;
 import com.hualing.googleplay.util.UIUtils;
 import com.hualing.googleplay.view.BaseTabPager;
 import com.lzy.okgo.OkGo;
@@ -50,6 +53,8 @@ public class HomeFragment extends BaseFragment implements PullLoadMoreRecyclerVi
 		initRecycler();
 		return view;
 	}
+
+
 
 	/**
 	 * 初始化滑动控件

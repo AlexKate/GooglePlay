@@ -6,12 +6,14 @@ import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.hualing.googleplay.R;
 import com.hualing.googleplay.adapter.TabPagerVpAdapter;
 import com.hualing.googleplay.fragment.BaseFragment;
 import com.hualing.googleplay.fragment.FragmentFactory;
 import com.hualing.googleplay.util.JingUtil;
+import com.hualing.googleplay.util.ToastUtil;
 import com.hualing.googleplay.view.PagerTab;
 
 
@@ -36,7 +38,6 @@ public class MainActivity extends BaseActivity {
 //				startActivity(new Intent(JingUtil.getContext(),TestActivity.class));
 //			}
 //		});
-
 
 
 		pagerTab = findViewById(R.id.pager_tab);
